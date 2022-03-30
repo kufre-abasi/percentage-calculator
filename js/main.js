@@ -17,29 +17,29 @@ function calc() {
           alert('invalid')
         };
         if(bill = amount){
-          var profitpercent = Number(document.getElementById('convertibleBill').value);
+          var profitpercent = Number(document.getElementById('profitBill').value);
           var profit = bill *(profitpercent/100)
         } 
         else{
           alert('invalid')
         };
         if(bill = amount){
-          var equitypercent = Number(document.getElementById('convertibleBill').value);
+          var equitypercent = Number(document.getElementById('equityBill').value);
           var equity = bill *(equitypercent/100)
         } 
         else{
           alert('invalid')
         };
         if(bill = amount){
-          var grantpercent = Number(document.getElementById('convertibleBill').value);
+          var grantpercent = Number(document.getElementById('grantsBill').value);
           var grant = bill *(grantpercent/100)
         } 
         else{
           alert('invalid')
         };
-        if( loadpercent + conpercent + profitpercent + equitypercent + grantpercent = '100'){
-
-        }
+        // if( (loadpercent + conpercent + profitpercent + equitypercent + grantpercent) = '1000'){
+          
+        // }
 
 
     document.getElementById("showload").innerHTML = "$" + Number(load).toFixed(2);
