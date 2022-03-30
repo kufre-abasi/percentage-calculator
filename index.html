@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https:stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+  <body>
+      <main class="container shadow p-auto mb-5 bg-white rounded ">
+                <form class="col form p-0" action="javascript:void(calc())">
+                        <div class="row amount-main py-0">
+                          <span class=" px-3 py-2 rounded text-light border  shadow-sm amount bg-warning">$<span class="">5000</span></span>
+                        </div>
+                        <div class="row py-0">
+                        <!-- <input id="baseAmount" type="text" class=" base-input border-0" placeholder="0.00" aria-label="Dollar amount (with dot and two decimal places)"> -->
+                        <button class="btn rounded border sub col m-0" type="submit">Convert to Sub Wallet</button>
+                        </div>
+                          <br>
+                        <div class="row mt-5 p-3">
+                            <div class="col  ">
+                                <div class="row" id=""><input type="number" name="percentage" step="1" value="0" id="loanBill" min="0" max="50" class="mr-2 input-1st border-0 shadow-sm" placeholder="%">Loan  </div>
+                                <div class="row" id=""><input type="number" name="" step="1" value="0" min="0" max="50" id="convertibleBill" class="mr-2 input-2nd border-0 shadow-sm" placeholder="%">Convertible Note </div>
+                                <div class="row" id=""><input type="number" name="" step="1" value="0" min="0" max="50" id="profitBill" class="mr-2 input-3rd border-0 shadow-sm" placeholder="%">Shared Profits  <span id=""></span></div>
+                                <div class="row" id=""><input type="number" name="" step="1" value="0" min="0" max="50" id="equityBill" class="mr-2 input-4th border-0 shadow-sm" placeholder="%">Equity <span id=""></span></div>
+                                <div class="row" id=""><input type="number" name="" step="1" value="0" min="0" max="50" id="grantsBill" class="mr-2 input-5th border-0 shadow-sm" placeholder="%">Grants <span id=""></span></div>
+                            </div>
+                            <div class="col pl-5">
+                              <span class="row" id="showload"></span>
+                              <span class="row" id="showcon"></span>
+                              <span class="row" id="showprofit">.</span>
+                              <span class="row" id="showequity"></span>
+                              <span class="row" id="showgrant"></span>
+                            </div>
+                        </div>
+                      </form>
+      </main>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https:code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https:stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
