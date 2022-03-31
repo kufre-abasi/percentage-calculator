@@ -16,6 +16,11 @@
     font-weight: 600;
     color: rgb(33, 44, 48);
 }
+.sub-wallet{
+    font-size:14px;
+    font-weight: 600;
+    color: rgb(33, 44, 48);
+}
 .amount{
     width: auto;
     font-size: medium;
@@ -34,9 +39,10 @@
     /* background-color: rgba(244, 244, 247, 0.438); */
     padding-left: 220px;
 }
-.sub{
-    background-color: rgba(174, 174, 245, 0.438);
+.submit{
+    background-color: rgba(232, 232, 250, 0.76);
     width: 50px;
+    border: none !important;
 }
 .input-1st,
 .input-2nd,
@@ -44,6 +50,13 @@
 .input-4th,
 .input-5th{
     width: 50px;
+    background-color: #90c1d7;
+    color: aliceblue;
+}
+#label{
+    color: #7e7d7d;
+    font-weight: 500;
+    font-size: medium;
 }
 
 @media only screen and (max-width: 425px){
