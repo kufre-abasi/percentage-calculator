@@ -133,7 +133,6 @@ body{
     .amount{
         width: auto;
         font-size: medium;
-        background-color: #5584AC;
         border-radius:  15px;
         font-weight: 600;
         -moz-background-clip: text;
@@ -145,7 +144,6 @@ body{
         padding-left: 20px;
     }
     .label{
-        color: rgba(234, 234, 238, 0.815);
         font-weight: 600;
         font-size:medium;
         width: auto;
@@ -193,7 +191,6 @@ body{
     .container{
         margin: 50px auto !important;
         box-shadow:  none;
-        background-color:  white;
     }
     .amount{
         font-size: medium;
@@ -214,8 +211,6 @@ body{
     .input-4th,
     .input-5th{
     width: 50px;
-    background-color: #26282933;
-    color: #00AAFF;
 }
 
     
