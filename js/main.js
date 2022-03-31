@@ -68,8 +68,8 @@ function calc() {
       };
       document.getElementById("balance").innerHTML = "$" + Number(finalAmount).toFixed(2);
       document.getElementById("showload").innerHTML = "$" + Number(load).toFixed(2);
-    document.getElementById("showcon").innerHTML = "$" + Number(con).toFixed(2);
-    document.getElementById("showprofit").innerHTML = "$" + Number(profit).toFixed(2);
-    document.getElementById("showequity").innerHTML = "$" + Number(equity).toFixed(2);
-    document.getElementById("showgrant").innerHTML = "$" + Number(grant).toFixed(2);
+      document.getElementById("showcon").innerHTML = "$" + Number(con).toFixed(2);
+      document.getElementById("showprofit").innerHTML = "$" + Number(profit).toFixed(2);
+      document.getElementById("showequity").innerHTML = "$" + Number(equity).toFixed(2);
+      document.getElementById("showgrant").innerHTML = "$" + Number(grant).toFixed(2);
   }
