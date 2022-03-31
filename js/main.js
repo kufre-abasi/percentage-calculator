@@ -59,13 +59,15 @@ function calc() {
         // else{
         //   alert('Grants Percentage is more than 50% reduce it')
         // };
+        var totalAmount = load + con + profit + equity + grant;
+        var finalAmount = amount - totalAmount; 
 
       }
       else{
         alert('The sum total of percentage is more than 100%. Make an adjustment')
       };
-
-    document.getElementById("showload").innerHTML = "$" + Number(load).toFixed(2);
+      document.getElementById("balance").innerHTML = "$" + Number(finalAmount).toFixed(2);
+      document.getElementById("showload").innerHTML = "$" + Number(load).toFixed(2);
     document.getElementById("showcon").innerHTML = "$" + Number(con).toFixed(2);
     document.getElementById("showprofit").innerHTML = "$" + Number(profit).toFixed(2);
     document.getElementById("showequity").innerHTML = "$" + Number(equity).toFixed(2);
