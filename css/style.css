@@ -11,42 +11,43 @@ body{
     margin: 10px auto !important;
     width: 60%;
     padding: 40px;
-    background-color: #22577E;
+    background-color: #00AAFF;
     /* background-color: #FFFFFF; */
     box-shadow: 0 3px 10px rgba(74, 74, 75, 0.253);
-    border-radius: 30px;
+    border-radius: 20px;
 }
 .heading{
-    font-size: large;
+    font-size: larger;
     font-weight: 600;
-    color: #22577E;
+    /* color: #00AAFF; */
+    color: #00AAFF;
     /* color: #FFFFFF; */
-    text-shadow: 0px 3px 3px rgba(109, 111, 136, 0.637);
+    text-shadow: 0px 3px 3px rgba(122, 123, 139, 0.637);
     text-align: center;
     padding-top: 70px;
 }
 .sub-wallet{
     font-size:15px;
     font-weight: 700;
-    /* color: #22577E; */
+    /* color: #00AAFF; */
     color: #FFFFFF;
-    text-shadow: 0px 1px 3px rgba(65, 63, 63, 0.548);
+    text-shadow: 0px 1px 3px rgba(138, 135, 135, 0.356);
 }
 .amount{
     width: auto;
     font-size: medium;
-    /* background-color: #22577E; */
+    /* background-color: #00AAFF; */
     background-color: #FFFFFF;
     border-radius:  15px;
     font-weight: 600;
     /* color: #FFFFFF; */
-    color: #22577E !important;
+    color: #00AAFF !important;
     /* color: transparent; */
     /* background: #666666; */
     /* -webkit-background-clip: text; */
     -moz-background-clip: text;
     background-clip: text;
-    text-shadow: 0px 3px 3px rgba(37, 34, 34, 0.5);
+    text-shadow: 0px 3px 3px rgba(78, 77, 77, 0.342);
 }
 .amount-main{
     /* background-color: rgba(244, 244, 247, 0.438); */
@@ -54,11 +55,11 @@ body{
 }
 .submit{
     /* background-color: rgba(234, 234, 238, 0.815); */
-    background-color: #22577E;
+    background-color: #00AAFF;
     width: auto;
     border: none !important;
     margin-top: 30px;
-    /* color: #22577E; */
+    /* color: #00AAFF; */
     color: #FFFFFF;
     font-weight: 600;
 }
@@ -69,7 +70,7 @@ body{
 .input-5th{
     width: 50px;
     /* background-color: #26282933; */
-    color: #22577E;
+    color: #00AAFF;
     border-radius:5px 5px 5px 10px;
     margin-top: 5px;
     padding: 4px;
@@ -79,8 +80,15 @@ body{
    box-shadow:        inset 0 0 10px #000000;
     
 }
+.input-1st::-webkit-scrollbar,
+.input-2nd::-webkit-scrollbar,
+.input-3rd::-webkit-scrollbar,
+.input-4th::-webkit-scrollbar,
+.input-5th::-webkit-scrollbar{
+    appearance: none;
+}
 #label{
-    /* color: #22577E; */
+    /* color: #00AAFF; */
     color: #FFFFFF;
     font-weight: 600;
     padding: 4px;
@@ -89,7 +97,7 @@ body{
 }
 .label{
     /* color: rgba(234, 234, 238, 0.815); */
-    color: #22577E;
+    color: #00AAFF;
     font-weight: 600;
     font-size: large;
 }
@@ -98,23 +106,23 @@ body{
 
 }
 .result-sec{
-    /* background-color: #22577E; */
+    /* background-color: #00AAFF; */
     background-color: #FFFFFF;
 
     border-radius: 20px;
     /* color: white !important; */
-    color: #22577E;
+    color: #00AAFF;
     padding: 20px 50px 20px 50px;
 }
 .intro{
-    /* color: #22577E; */
+    /* color: #00AAFF; */
     color: #FFFFFF;
     text-shadow: 0px 3px 3px rgba(85, 84, 84, 0.5);
     font-size: smaller;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .line{
-    /* background-color: #22577E; */
+    /* background-color: #00AAFF; */
     background-color: #FFFFFF;
     width: 100%;
     height: 2px;
@@ -207,7 +215,7 @@ body{
     .input-5th{
     width: 50px;
     background-color: #26282933;
-    color: #22577E;
+    color: #00AAFF;
 }
 
     
