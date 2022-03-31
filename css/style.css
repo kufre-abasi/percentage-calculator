@@ -12,14 +12,14 @@ body{
     width: 60%;
     padding: 40px;
     background-color: #FFFFFF;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.253);
+    box-shadow: 0 3px 10px rgba(74, 74, 75, 0.253);
     border-radius: 30px;
 }
 .heading{
     font-size: large;
     font-weight: 600;
     color: #22577E;
-    /* margin: 0 auto !important; */
+    text-shadow: 0px 3px 3px rgba(109, 111, 136, 0.637);
     text-align: center;
     padding-top: 70px;
 }
@@ -27,6 +27,7 @@ body{
     font-size:15px;
     font-weight: 700;
     color: #22577E;
+    text-shadow: 0px 1px 3px rgba(126, 123, 123, 0.5);
 }
 .amount{
     width: auto;
@@ -40,7 +41,7 @@ body{
     /* -webkit-background-clip: text; */
     -moz-background-clip: text;
     background-clip: text;
-    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+    text-shadow: 0px 3px 3px rgba(37, 34, 34, 0.5);
 }
 .amount-main{
     /* background-color: rgba(244, 244, 247, 0.438); */
@@ -76,6 +77,7 @@ body{
     font-weight: 600;
     padding: 4px;
     margin-top: 5px;
+    text-shadow: 0px 2px 2px rgba(119, 118, 118, 0.5);
 }
 .label{
     color: rgba(234, 234, 238, 0.815);
@@ -94,7 +96,7 @@ body{
 }
 .intro{
     color: #22577E;
-    
+    text-shadow: 0px 3px 3px rgba(85, 84, 84, 0.5);
     font-size: smaller;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
