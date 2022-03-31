@@ -27,38 +27,38 @@ function calc() {
         if( loadpercent <= 50 ){   //if the percentage collected from LOAD percentage input is less or equal to 50% the calculation will take place
         //  IN HERE BELOW AFTER THE  PERCENTAGE HAS BEEN COLLECTED FROM THE INPUT, IT'S THEN DIVIDED BY 100 AND MULTIPLIED BY THE FIXED WALLET AMOUNT {5000}
           var load = amount *(loadpercent/100);
-        }
-        else{
-            alert('Load Percentage is more than 50% reduce it')
         };
+        // else{
+        //     alert('Load Percentage is more than 50% reduce it')
+        // };
         if( conpercent <= 50){  //if the percentage collected from CONVERTIBLE NOTE percentage input is less or equal to 50% the calculation will take place
         //  IN HERE BELOW AFTER THE  PERCENTAGE HAS BEEN COLLECTED FROM THE INPUT, IT'S THEN DIVIDED BY 100 AND MULTIPLIED BY THE FIXED WALLET AMOUNT {5000}
           var con = amount *(conpercent/100)
         } 
-        else{
-          alert('Convertible Note Percentage is more than 50% reduce it')
-        };
+        // else{
+        //   alert('Convertible Note Percentage is more than 50% reduce it')
+        // };
         if( profitpercent <= 50){ //if the percentage collected from SHARED PROFIT percentage input is less or equal to 50% the calculation will take place
         //  IN HERE BELOW AFTER THE  PERCENTAGE HAS BEEN COLLECTED FROM THE INPUT, IT'S THEN DIVIDED BY 100 AND MULTIPLIED BY THE FIXED WALLET AMOUNT {5000}
           var profit = amount *(profitpercent/100)
         } 
-        else{
-          alert('Shared Profit Percentage is more than 50% reduce it')
-        }; 
+        // else{
+        //   alert('Shared Profit Percentage is more than 50% reduce it')
+        // }; 
         if( equitypercent <= 50){ //if the percentage collected from EQUITY percentage input is less or equal to 50% the calculation will take place
         //  IN HERE BELOW AFTER THE  PERCENTAGE HAS BEEN COLLECTED FROM THE INPUT, IT'S THEN DIVIDED BY 100 AND MULTIPLIED BY THE FIXED WALLET AMOUNT {5000}
           var equity = amount *(equitypercent/100)
         } 
-        else{
-          alert('Equity Percentage is more than 50% reduce it')
-        };
+        // else{
+        //   alert('Equity Percentage is more than 50% reduce it')
+        // };
         if( grantpercent <= 50){ //if the percentage collected from GRANTS percentage input is less or equal to 50% the calculation will take place
         //  IN HERE BELOW AFTER THE  PERCENTAGE HAS BEEN COLLECTED FROM THE INPUT, IT'S THEN DIVIDED BY 100 AND MULTIPLIED BY THE FIXED WALLET AMOUNT {5000}
           var grant = amount *(grantpercent/100)
         } 
-        else{
-          alert('Grants Percentage is more than 50% reduce it')
-        };
+        // else{
+        //   alert('Grants Percentage is more than 50% reduce it')
+        // };
 
       }
       else{
